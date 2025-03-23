@@ -69,7 +69,7 @@ Random User Agents for use with curl, nmap, wget etc.
 ## Usage
 - nmap:
 
-`nmap -p 80,443 --script http-useragent --script-args http-useragent="Mozilla/5.0 (iPhone; CPU iPhone OS 17_2 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Version/17.2 Mobile/15E148 Safari/537.36" target.com
+`nmap -p 80,443 --script http-headers --script-args http.useragent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)" target.com
 `   
 - curl:
   
